@@ -13,6 +13,6 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "\n\nAntonella";
     document.getElementById("clock").style = "border: none; background-color: white;";
-    document.getElementById("container").style = "background: pink; background-image: url('./img/fireworks.gif');";
+    document.getElementById("container").style = "background: pink; background-image: url('img/fireworks.gif');";
   }
 }, 1000);
