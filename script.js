@@ -12,7 +12,9 @@ var x = setInterval(function() {
   if (y < 0) {
     clearInterval(x);
     document.getElementById("timer").innerHTML = "\n\nAntonella";
-    document.getElementById("clock").style = "border: none; background-color: white;";
-    document.getElementById("container").style = "background: pink; background-image: url('img/fireworks.gif');";
+    document.getElementById("clock").classList.remove('clock');
+    document.getElementById("clock").classList.add('clock-2');
+    document.getElementById("container").classList.remove('container');
+    document.getElementById("container").classList.add('container-2');
   }
 }, 1000);

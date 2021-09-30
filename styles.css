@@ -5,6 +5,18 @@
   font-family: 'Ephesis', cursive;
 }
 
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: pink; 
+  background-image: url('img/fireworks.gif'); 
+  background-size: cover;
+  transition: background-image 1s;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -13,9 +25,20 @@
   height: 100vh;
   background: #FC354C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
 
-  
+.clock-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  height: 5em;
+  width: 5em;
+  border-radius: 3.5em;
+  border: none; 
+  background-color: pink;
 }
 
 .clock {
