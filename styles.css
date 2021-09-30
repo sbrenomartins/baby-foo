@@ -48,11 +48,19 @@
   text-align: center;
   font-size: 4rem;
   height: 5em;
-  width: 5em;
   border-radius: 3.5em;
-  border: 1px solid black;
 }
 
 #text {
   display: none;
+}
+
+button {
+  width: 20rem;
+  height: 8rem;
+  font-size: 1em;
+  background: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
 }
