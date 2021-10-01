@@ -15,7 +15,7 @@ function descobrirSexoDoBebe() {
     // If the count down is finished, write some text
     if (y < 0) {
       clearInterval(x);
-      document.getElementById("timer").innerHTML = "\n\nHeitor";
+      document.getElementById("timer").innerHTML = "\n\nAntonella";
       document.getElementById("clock").classList.remove('clock');
       document.getElementById("clock").classList.add('clock-2');
       document.getElementById("container").classList.remove('container');
