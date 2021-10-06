@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ephesis', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .container-2 {
@@ -23,9 +23,9 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: #FC354C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .clock-2 {
@@ -38,7 +38,9 @@
   width: 5em;
   border-radius: 3.5em;
   border: none; 
-  background-color: pink;
+  background: #f953c6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .clock {
